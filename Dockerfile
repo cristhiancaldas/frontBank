@@ -1,6 +1,4 @@
-FROM node:alpine
-
-RUN apk update && apk upgrade
+FROM node:12.18.1
 
 # Create app directory
 RUN mkdir -p /front-end-service/
